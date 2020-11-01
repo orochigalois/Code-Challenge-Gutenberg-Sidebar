@@ -2,7 +2,7 @@
 /**
  * Local dependencies.
  */
-import Sidebar from './components/sidebar.js';
+import Sidebar from './components/sidebar';
 
 /**
  * WordPress dependencies.

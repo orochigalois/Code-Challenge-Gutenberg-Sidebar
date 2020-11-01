@@ -6,9 +6,9 @@ import React from 'react'
 /**
  * Local dependencies.
  */
-import AdToggleField from './AdToggleField.js';
-import CommercialTypeField from './CommercialTypeField.js';
-import AdNameField from './AdNameField.js';
+import AdToggleField from './AdToggleField';
+import CommercialTypeField from './CommercialTypeField';
+import AdNameField from './AdNameField';
 
 /**
  * WordPress dependencies.

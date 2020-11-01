@@ -81,15 +81,15 @@
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 0);
+/******/ 	return __webpack_require__(__webpack_require__.s = 1);
 /******/ })
 /************************************************************************/
 /******/ ({
 
-/***/ "./src/js/components/AdNameField.js":
-/*!******************************************!*\
-  !*** ./src/js/components/AdNameField.js ***!
-  \******************************************/
+/***/ "./src/js/components/AdNameField.tsx":
+/*!*******************************************!*\
+  !*** ./src/js/components/AdNameField.tsx ***!
+  \*******************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -193,10 +193,10 @@ var AdNameField = /*#__PURE__*/function (_React$Component) {
 
 /***/ }),
 
-/***/ "./src/js/components/AdToggleField.js":
-/*!********************************************!*\
-  !*** ./src/js/components/AdToggleField.js ***!
-  \********************************************/
+/***/ "./src/js/components/AdToggleField.tsx":
+/*!*********************************************!*\
+  !*** ./src/js/components/AdToggleField.tsx ***!
+  \*********************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -323,10 +323,10 @@ var AdToggleField = /*#__PURE__*/function (_React$Component) {
 
 /***/ }),
 
-/***/ "./src/js/components/CommercialTypeField.js":
-/*!**************************************************!*\
-  !*** ./src/js/components/CommercialTypeField.js ***!
-  \**************************************************/
+/***/ "./src/js/components/CommercialTypeField.tsx":
+/*!***************************************************!*\
+  !*** ./src/js/components/CommercialTypeField.tsx ***!
+  \***************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -481,10 +481,10 @@ var CommercialTypeField = /*#__PURE__*/function (_React$Component) {
 
 /***/ }),
 
-/***/ "./src/js/components/sidebar.js":
-/*!**************************************!*\
-  !*** ./src/js/components/sidebar.js ***!
-  \**************************************/
+/***/ "./src/js/components/sidebar.tsx":
+/*!***************************************!*\
+  !*** ./src/js/components/sidebar.tsx ***!
+  \***************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -492,9 +492,9 @@ var CommercialTypeField = /*#__PURE__*/function (_React$Component) {
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _AdToggleField_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./AdToggleField.js */ "./src/js/components/AdToggleField.js");
-/* harmony import */ var _CommercialTypeField_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./CommercialTypeField.js */ "./src/js/components/CommercialTypeField.js");
-/* harmony import */ var _AdNameField_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./AdNameField.js */ "./src/js/components/AdNameField.js");
+/* harmony import */ var _AdToggleField__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./AdToggleField */ "./src/js/components/AdToggleField.tsx");
+/* harmony import */ var _CommercialTypeField__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./CommercialTypeField */ "./src/js/components/CommercialTypeField.tsx");
+/* harmony import */ var _AdNameField__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./AdNameField */ "./src/js/components/AdNameField.tsx");
 function _typeof(obj) { "@babel/helpers - typeof"; if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
@@ -565,7 +565,7 @@ var Sidebar = /*#__PURE__*/function (_React$Component) {
         title: __("Advertising Settings", "advertisingsettings")
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "advertisement-sidebar-content"
-      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_AdToggleField_js__WEBPACK_IMPORTED_MODULE_1__["default"], null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_CommercialTypeField_js__WEBPACK_IMPORTED_MODULE_2__["default"], null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_AdNameField_js__WEBPACK_IMPORTED_MODULE_3__["default"], null)))));
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_AdToggleField__WEBPACK_IMPORTED_MODULE_1__["default"], null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_CommercialTypeField__WEBPACK_IMPORTED_MODULE_2__["default"], null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_AdNameField__WEBPACK_IMPORTED_MODULE_3__["default"], null)))));
     }
   }]);
 
@@ -576,16 +576,16 @@ var Sidebar = /*#__PURE__*/function (_React$Component) {
 
 /***/ }),
 
-/***/ "./src/js/main.js":
-/*!************************!*\
-  !*** ./src/js/main.js ***!
-  \************************/
+/***/ "./src/js/main.tsx":
+/*!*************************!*\
+  !*** ./src/js/main.tsx ***!
+  \*************************/
 /*! no exports provided */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _components_sidebar_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./components/sidebar.js */ "./src/js/components/sidebar.js");
+/* harmony import */ var _components_sidebar__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./components/sidebar */ "./src/js/components/sidebar.tsx");
 /**
  * Local dependencies.
  */
@@ -601,31 +601,19 @@ var registerPlugin = wp.plugins.registerPlugin;
 
 registerPlugin("advertisingsettings", {
   icon: 'awards',
-  render: _components_sidebar_js__WEBPACK_IMPORTED_MODULE_0__["default"]
+  render: _components_sidebar__WEBPACK_IMPORTED_MODULE_0__["default"]
 });
 
 /***/ }),
 
-/***/ "./src/scss/main.scss":
-/*!****************************!*\
-  !*** ./src/scss/main.scss ***!
-  \****************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-// removed by extract-text-webpack-plugin
-
-/***/ }),
-
-/***/ 0:
-/*!***************************************************!*\
-  !*** multi ./src/js/main.js ./src/scss/main.scss ***!
-  \***************************************************/
+/***/ 1:
+/*!*******************************!*\
+  !*** multi ./src/js/main.tsx ***!
+  \*******************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! /Users/xinyin/Project/alex/Code-Challenge-Gutenberg-Sidebar/wp-content/plugins/advertising settings/src/js/main.js */"./src/js/main.js");
-module.exports = __webpack_require__(/*! /Users/xinyin/Project/alex/Code-Challenge-Gutenberg-Sidebar/wp-content/plugins/advertising settings/src/scss/main.scss */"./src/scss/main.scss");
+module.exports = __webpack_require__(/*! /Users/xinyin/Project/alex/Code-Challenge-Gutenberg-Sidebar/wp-content/plugins/advertising settings/src/js/main.tsx */"./src/js/main.tsx");
 
 
 /***/ }),
